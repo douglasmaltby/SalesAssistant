@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import UIKit
 import ImageIO
+import UIKit
 
 extension CGImagePropertyOrientation {
     init(_ orientation: UIImage.Orientation) {

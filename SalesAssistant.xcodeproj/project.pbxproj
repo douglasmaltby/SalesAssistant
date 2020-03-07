@@ -7,39 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052BD7900A7EAE8B19AC17A8 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		07C56C4EC152248D319F1C48 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDC965A6E5081960E53A171 /* CollectionsViewController.swift */; };
-		0AF87DA8D371597A1E466E1B /* ESPMContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C82E0485FCD10645C3041 /* ESPMContainer.swift */; };
+		0DD8585E3B411A7F5CFAFDC7 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */; };
-		147449EEC32C07D6E9407F7A /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A9BF077CF0C56A0E9BFD6 /* Customer.swift */; };
+		140AFF8D2DEF61D9D5E46D92 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		163E80B38C3582C43E4A5F38 /* ProductCategory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD84070073C44E5FB933992 /* ProductCategory.storyboard */; };
+		1865660A118C5981831DE778 /* ESPMContainerMetadataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C987DA10D0B47038FE996148 /* ESPMContainerMetadataParser.swift */; };
 		1F5C791D6FFA4612BE102A19 /* ProductTextMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCA9951D780396055320EB /* ProductTextMasterViewController.swift */; };
-		1FAF6015E95D41039C375142 /* ESPMContainerStaticResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5C2FAD3CD5D1FF2690307 /* ESPMContainerStaticResolver.swift */; };
 		1FD40C3C4741707C2FDA40CF /* SalesOrderHeaderMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A24DE0CD44FB574844AC7C3 /* SalesOrderHeaderMasterViewController.swift */; };
+		20E78F9F2A73DBE728A2A8C8 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		22A333DF416D030FEFD1038A /* CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA489395CB1ADAA08AC1D7 /* CollectionType.swift */; };
-		239728F0283BED6A526EB351 /* ProductText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D514F01B303836755B63607 /* ProductText.swift */; };
+		236D57CE17F59574B47E7E84 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		24264030BC9599EEC85C5F8C /* ESPMContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DF84B7A4551D9D20A53F6 /* ESPMContainerFactory.swift */; };
+		24A517F5857CC8DB5635BF36 /* PurchaseOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A1539CCEB7A352B86B9D82 /* PurchaseOrderItem.swift */; };
+		274FD7743148BAB5A642AA86 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		2ADFFE1168CC8D07C918142A /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A79E9F17E691C7B521C6A8 /* AlertHelper.swift */; };
+		305A8C6E5FE79CE02FA2E581 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		325C31562413FC2300F3DEED /* SalesAssistant2.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31512413FC2200F3DEED /* SalesAssistant2.png */; };
+		325C31572413FC2300F3DEED /* SalesAssistant1.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31522413FC2200F3DEED /* SalesAssistant1.png */; };
+		325C31582413FC2300F3DEED /* SalesAssistant4.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31532413FC2300F3DEED /* SalesAssistant4.png */; };
+		325C31592413FC2300F3DEED /* SalesAssistant3.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31542413FC2300F3DEED /* SalesAssistant3.png */; };
+		325C315A2413FC2300F3DEED /* SalesAssistant5.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31552413FC2300F3DEED /* SalesAssistant5.png */; };
 		3265FABD2402D5E40059A78C /* ProductClassificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3265FABC2402D5E40059A78C /* ProductClassificationTableViewController.swift */; };
 		3265FAC12402F2670059A78C /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3265FAC02402F2670059A78C /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		3265FAC62403128B0059A78C /* ProductImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3265FAC52403128B0059A78C /* ProductImageClassifier.mlmodel */; };
 		32B5CEFD23FB22640066AF24 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B5CEFC23FB22640066AF24 /* OverviewViewController.swift */; };
 		32B5CEFF23FB47A70066AF24 /* CustomerDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B5CEFE23FB47A70066AF24 /* CustomerDetailTableViewController.swift */; };
+		32FFB9BB1A3AEC2ACBB7E302 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		34A5F7E752928F4F9EC30C65 /* ProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E206C6D57AD3B36F6C0C94 /* ProductCategory.swift */; };
+		36B2893B8D087BF483230151 /* SalesOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063ECE320CE2DE91263D9775 /* SalesOrderItem.swift */; };
 		39268A3190542172F41052D9 /* OnlineODataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F0D790923BCE0A084DD6A0 /* OnlineODataController.swift */; };
 		3B219AFB2C33CB78C1524F9D /* CustomerMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB451C80DE666E7EFF3319 /* CustomerMasterViewController.swift */; };
 		3C800509138A7326B4E8780C /* ProductCategoryMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7891F674273E1570D38F35F /* ProductCategoryMasterViewController.swift */; };
 		3C8C1CA2D8FA412AEE0A30B4 /* SalesOrderItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20894A89E99B792C858A2016 /* SalesOrderItem.storyboard */; };
-		3D0605E219765462C98670AB /* ESPMContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D42A0D12E04F65A166E0C6 /* ESPMContainerFactory.swift */; };
-		413578CFCB2E8072D4CB5D07 /* ESPMContainerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95590836E51C1691E2F9FF0 /* ESPMContainerMetadata.swift */; };
+		4063011B2FA410807F231B9E /* (null) in Sources */ = {isa = PBXBuildFile; };
 		418E9C27C80318308C8E0635 /* PurchaseOrderHeader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793691FC355636A80309A3A4 /* PurchaseOrderHeader.storyboard */; };
-		46440EB9F412E5BE3F17E71C /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C48F70EFD8481EB63E700 /* Stock.swift */; };
+		43C839105F8C2ECDEBD563BD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		43DEB83D01004FBFC0DDDE1C /* ESPMContainerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BB673E8324555FC322A5D9 /* ESPMContainerMetadata.swift */; };
+		440D6C8EB4B0D8DDD57E1B25 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		468A909A8DD61C8F28FEFD12 /* ProductTextDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288210EEC094172D5D3806 /* ProductTextDetailViewController.swift */; };
 		46C6D5B4E22A0F6B2E9D9EEC /* SalesOrderItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685C52F5B9B12977148D70 /* SalesOrderItemDetailViewController.swift */; };
-		46CC59771EE7C63B6AC742B1 /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2BFFE1D1717824994BBA65 /* Supplier.swift */; };
 		50F668FA06071BD94EF3C65B /* ConfigurationProvider.plist in Sources */ = {isa = PBXBuildFile; fileRef = 6DD36C1789E74E2B3D3E6C6D /* ConfigurationProvider.plist */; };
-		55853351A9D562947CB318AC /* ProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6DF096DF9537B4DA28A6B6 /* ProductCategory.swift */; };
 		57405BBD0D5CBA9468A980D0 /* SalesOrderItemMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABDC9A6587C9B526D358AC /* SalesOrderItemMasterViewController.swift */; };
+		57B158E77BE56F5723E00CFC /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5CA0AF9D4A6EE337B4518133 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBD9E7E50197824AD8AAE3 /* Stock.swift */; };
+		5EAEF795115921146AC87319 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		65D8F556F2ED038F6124088A /* (null) in Sources */ = {isa = PBXBuildFile; };
+		66F8F0DF42BE4779CC562AD4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		678A6218BCABD758FB3A6346 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		6832E1E431BEB03A9CAFA2AC /* ESPMContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160854493BF3D2BE47E0141C /* ESPMContainer.swift */; };
+		68AD5C07F17DF693A9491E1B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		69AAD83C99393F86244B6921 /* Stock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215353ACBFD26303D2F43BFC /* Stock.storyboard */; };
-		6BBDD07619CC6F040722EB9D /* ESPMContainerMetadataText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C53C43F63FDD950B8A96F9 /* ESPMContainerMetadataText.swift */; };
 		6D5945B6DD69BACBE2CD1A73 /* ApplicationUIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696BDC57A84129B57B08254A /* ApplicationUIManager.swift */; };
+		6DC97709F77EE85B2FDCBB87 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		6DDA36762D9E1429F55BA596 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		6DFDCACC0282803887016BAC /* (null) in Sources */ = {isa = PBXBuildFile; };
+		73F1F2AFF25B6DB9E4BBEA13 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		742AF26839A441E9E83C950E /* OnboardingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FFBF4DB113B6BE52F32360 /* OnboardingErrorHandler.swift */; };
 		76A0B0A889AFCA063A7291E1 /* ProductMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101128DFE88DBC6ED9A59E3F /* ProductMasterViewController.swift */; };
 		7A0F5995CE328ECF4DAAD662 /* PurchaseOrderHeaderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417C34A7795E3A14BD24CE7 /* PurchaseOrderHeaderDetailViewController.swift */; };
@@ -48,47 +72,63 @@
 		7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */; };
 		7A16F06D1FD1B3C700D2FABD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7A16F06C1FD1B3C700D2FABD /* README.md */; };
 		7A5744B621DE553600E58C7F /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5744B521DE553600E58C7F /* UITests.swift */; };
-		7A6F077E2BEB70EAAB3054D4 /* PurchaseOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978CFC2A8118D707AF53DA81 /* PurchaseOrderItem.swift */; };
+		7A76F5B5D10F5BC80630EA53 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7ABA471D219D6EAD005B471C /* SAPOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4717219D6EAD005B471C /* SAPOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7ABA471E219D6EAD005B471C /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7ABA471F219D6EAD005B471C /* SAPCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4719219D6EAD005B471C /* SAPCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7ABA4720219D6EAD005B471C /* SAPFioriFlows.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471A219D6EAD005B471C /* SAPFioriFlows.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7ABA4721219D6EAD005B471C /* SAPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471B219D6EAD005B471C /* SAPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7ABA4722219D6EAD005B471C /* SAPFiori.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471C219D6EAD005B471C /* SAPFiori.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7ABA4724219D6EC7005B471C /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4719219D6EAD005B471C /* SAPCommon.framework */; };
-		7ABA4725219D6EC7005B471C /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471B219D6EAD005B471C /* SAPFoundation.framework */; };
-		7ABA4726219D6EC7005B471C /* SAPFioriFlows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471A219D6EAD005B471C /* SAPFioriFlows.framework */; };
-		7ABA4727219D6EC7005B471C /* SAPFiori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471C219D6EAD005B471C /* SAPFiori.framework */; };
-		7ABA4728219D6EC7005B471C /* SAPOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4717219D6EAD005B471C /* SAPOData.framework */; };
+		7ABA4724219D6EC7005B471C /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4719219D6EAD005B471C /* SAPCommon.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7ABA4725219D6EC7005B471C /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471B219D6EAD005B471C /* SAPFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7ABA4726219D6EC7005B471C /* SAPFioriFlows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471A219D6EAD005B471C /* SAPFioriFlows.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7ABA4727219D6EC7005B471C /* SAPFiori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA471C219D6EAD005B471C /* SAPFiori.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7ABA4728219D6EC7005B471C /* SAPOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA4717219D6EAD005B471C /* SAPOData.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		7B337E91B6E9F1F4ECC136A6 /* ProductCategoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF8E70987E1780CE8F8B9F /* ProductCategoryDetailViewController.swift */; };
-		7BD1F419C1A1FAB9F8322388 /* SalesOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E181432A59E815FBE75039 /* SalesOrderHeader.swift */; };
 		7CA096A75AA442A92F9CA675 /* SAPFioriLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B03A1B8DF925D04D39D22 /* SAPFioriLoadingIndicator.swift */; };
+		7DDFC7FAD585F0829740D608 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7E0F8189ECC7B089D0C152CB /* CellCreationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866C122D3396A155C88DEB71 /* CellCreationHelper.swift */; };
 		8025C35A5D8FED1925A4901F /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98CD9357EB9203B79278816 /* Product.storyboard */; };
+		85EF0951156C2B7EDECD421D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86F5976AE552CAE8B85182 /* Product.swift */; };
 		8655BB5284143E85CB39EBAF /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DC531BAEC8B17C7EAC087B /* ProductDetailViewController.swift */; };
+		8860032E2B262EB2F409AB25 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		8D2C49BC07BBB4A4C8E61840 /* CustomerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2558C791E3F89BC97281C /* CustomerDetailViewController.swift */; };
+		8E85CECB2A5281C4373F2EBF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		8EE581B37D834C3F4F3224CD /* PurchaseOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E8DCA563529AAD7A992B1 /* PurchaseOrderHeader.swift */; };
 		91DF60F2200B7B7E73928D2D /* OnboardingFlowProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38931441A69FF314530A2649 /* OnboardingFlowProvider.swift */; };
 		93A9C478E87016CBE8618D68 /* SupplierMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75060EF516E8782C6644036B /* SupplierMasterViewController.swift */; };
 		9798D42D18EC1154625CD130 /* StockMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455522EAB0112F3DAABA50D /* StockMasterViewController.swift */; };
-		9C026955C7EE20C3BE023204 /* ESPMContainerMetadataChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEAD7DE1EDED711764C239 /* ESPMContainerMetadataChanges.swift */; };
 		9CB20BE299C330872036CB3A /* PurchaseOrderItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17049382881C94C0E83B09AA /* PurchaseOrderItemDetailViewController.swift */; };
-		A8CB5182C9D6B0C4A36D8130 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED3C4608EF16F4372A4CC2 /* Address.swift */; };
+		A344A876AD8675C975D9E902 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A35E0A1D2972D958BB001109 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A3BD1F87B785B7E3C62008B4 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B448E5A2BA80A57C3FA8BF7A /* Customer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708FE8C6EFFAD0EE1C15A374 /* Customer.storyboard */; };
-		C13DE4341F10112EFAEA5B4D /* ESPMContainerMetadataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAAB1CADE12800845864FB /* ESPMContainerMetadataParser.swift */; };
+		B809429A404DF9E9FC6CC46D /* (null) in Sources */ = {isa = PBXBuildFile; };
+		BCFF30AEAF59F3379ACA6A71 /* SalesOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBDF88444DCC999E8932226 /* SalesOrderHeader.swift */; };
 		C18363299B1AE3A0874A539B /* PurchaseOrderItemMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7BC33F1D492DDF83E75893 /* PurchaseOrderItemMasterViewController.swift */; };
 		C6BEB95814D29915C1A3100C /* Supplier.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACC030409D15E7750AF6C7D /* Supplier.storyboard */; };
 		CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCA7A9B1E3778A9001AF49E /* Main.storyboard */; };
+		CDE1EAB4DCD488EE4DB1B6CF /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167178850747ECBEB57AED0E /* Address.swift */; };
 		CEC1946DFC818373800E4108 /* PurchaseOrderHeaderMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28068CDB62D5ABA490EB59C /* PurchaseOrderHeaderMasterViewController.swift */; };
-		D5BA604352B041183A9AE27E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9453D1F3952250D8B83CCDBF /* Product.swift */; };
+		D0A3E038DFA9D711B7048D0E /* (null) in Sources */ = {isa = PBXBuildFile; };
+		DAECAC0F69B63B5831FB7EE7 /* ESPMContainerMetadataText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351E1F60032CD9DCF1626B59 /* ESPMContainerMetadataText.swift */; };
 		DE369974A416DA5C58BC2750 /* PurchaseOrderItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FA0ED5998DB91558EDE051 /* PurchaseOrderItem.storyboard */; };
-		E1A205A50C78D57ED258CEFC /* SalesOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427EE8025170390DA4541C1 /* SalesOrderItem.swift */; };
+		E00F27E9FC90D8413A63874B /* ProductText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF2C5D26FF45E50A3A1A4A /* ProductText.swift */; };
+		E0DAD7982ECCD97203E74A8C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E5BA920B01DF1507C8E4B1F0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83796A789CBA6141888B82D /* Customer.swift */; };
 		E5FFFBB7D3F53C14F941230E /* SalesOrderHeaderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19BCCC892447F46967E372 /* SalesOrderHeaderDetailViewController.swift */; };
+		E7721B1D071F04A807DE2B02 /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0E3DB526B8BDD91D99B51 /* Supplier.swift */; };
 		E8473668E6233F76FDFFDF37 /* ODataOnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18871ACECBB8F6D794242F /* ODataOnboardingStep.swift */; };
-		EE42A2B779DCF2560FB5D9BD /* PurchaseOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3DB526E2462133156C043C /* PurchaseOrderHeader.swift */; };
+		E8FE391E34B0E9A2857DC8E7 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		F06146E4E89DAB7E24CE3470 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		F38B0142CB23DEAE7249608D /* ESPMContainerStaticResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879FFFEC07FFCC738F954DC /* ESPMContainerStaticResolver.swift */; };
 		F75264D4F86882C7561DC90A /* ProductText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0529532BF5664D6DC77CC831 /* ProductText.storyboard */; };
 		F9AECD50E9DDB09CDC6933F6 /* SupplierDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363ACE110F12AC2F89E0195F /* SupplierDetailViewController.swift */; };
 		FBBC166F3BDF505151510603 /* SalesOrderHeader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137232EBAD49ECD45568E6A7 /* SalesOrderHeader.storyboard */; };
+		FBE3F9E32F45CDF151860F3D /* ESPMContainerMetadataChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FBD74D1D6132F89673D0F8 /* ESPMContainerMetadataChanges.swift */; };
+		FC3B8941C57F2002763FC454 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		FC661695539F084DBD62C59F /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD16D784385FF52A66D3A1 /* LocalizedStrings.swift */; };
+		FE4E8EE3FAAEA838D1E1E82E /* (null) in Sources */ = {isa = PBXBuildFile; };
+		FF83DFB4A8865159D59921C6 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		FFEAFEB2977BE142BE3BBFBE /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927299999B019298ACD6B94E /* StockDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -105,12 +145,11 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		758AC1C31D5A265200311F39 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
 				7ABA471D219D6EAD005B471C /* SAPOData.framework in Embed Frameworks */,
-				7ABA471E219D6EAD005B471C /* (null) in Embed Frameworks */,
 				7ABA471F219D6EAD005B471C /* SAPCommon.framework in Embed Frameworks */,
 				7ABA4720219D6EAD005B471C /* SAPFioriFlows.framework in Embed Frameworks */,
 				7ABA4721219D6EAD005B471C /* SAPFoundation.framework in Embed Frameworks */,
@@ -122,42 +161,46 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		01ED3C4608EF16F4372A4CC2 /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = "Proxy Classes/public/Address.swift"; sourceTree = "<group>"; };
-		0B3DB526E2462133156C043C /* PurchaseOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderHeader.swift; path = "Proxy Classes/public/PurchaseOrderHeader.swift"; sourceTree = "<group>"; };
+		063ECE320CE2DE91263D9775 /* SalesOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderItem.swift; path = "Proxy Classes/public/SalesOrderItem.swift"; sourceTree = "<group>"; };
 		101128DFE88DBC6ED9A59E3F /* ProductMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductMasterViewController.swift; path = ViewControllers/Product/ProductMasterViewController.swift; sourceTree = "<group>"; };
 		10D81245B65777780C114188 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProductCategory.storyboard; sourceTree = "<group>"; };
 		1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SAPLogo@2x.png"; sourceTree = "<group>"; };
+		160854493BF3D2BE47E0141C /* ESPMContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainer.swift; path = "Proxy Classes/public/ESPMContainer.swift"; sourceTree = "<group>"; };
+		167178850747ECBEB57AED0E /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = "Proxy Classes/public/Address.swift"; sourceTree = "<group>"; };
 		17049382881C94C0E83B09AA /* PurchaseOrderItemDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderItemDetailViewController.swift; path = ViewControllers/PurchaseOrderItem/PurchaseOrderItemDetailViewController.swift; sourceTree = "<group>"; };
 		17685C52F5B9B12977148D70 /* SalesOrderItemDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderItemDetailViewController.swift; path = ViewControllers/SalesOrderItem/SalesOrderItemDetailViewController.swift; sourceTree = "<group>"; };
 		1FBCA9951D780396055320EB /* ProductTextMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductTextMasterViewController.swift; path = ViewControllers/ProductText/ProductTextMasterViewController.swift; sourceTree = "<group>"; };
 		22FD16D784385FF52A66D3A1 /* LocalizedStrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
 		23ABDC9A6587C9B526D358AC /* SalesOrderItemMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderItemMasterViewController.swift; path = ViewControllers/SalesOrderItem/SalesOrderItemMasterViewController.swift; sourceTree = "<group>"; };
-		27D42A0D12E04F65A166E0C6 /* ESPMContainerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerFactory.swift; path = "Proxy Classes/internal/ESPMContainerFactory.swift"; sourceTree = "<group>"; };
 		27EF8E70987E1780CE8F8B9F /* ProductCategoryDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductCategoryDetailViewController.swift; path = ViewControllers/ProductCategory/ProductCategoryDetailViewController.swift; sourceTree = "<group>"; };
+		2E8E8DCA563529AAD7A992B1 /* PurchaseOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderHeader.swift; path = "Proxy Classes/public/PurchaseOrderHeader.swift"; sourceTree = "<group>"; };
 		2F7BC33F1D492DDF83E75893 /* PurchaseOrderItemMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderItemMasterViewController.swift; path = ViewControllers/PurchaseOrderItem/PurchaseOrderItemMasterViewController.swift; sourceTree = "<group>"; };
 		30F0D790923BCE0A084DD6A0 /* OnlineODataController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnlineODataController.swift; path = OData/OnlineODataController.swift; sourceTree = "<group>"; };
 		31A79E9F17E691C7B521C6A8 /* AlertHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertHelper.swift; path = Utils/AlertHelper.swift; sourceTree = "<group>"; };
+		325C31512413FC2200F3DEED /* SalesAssistant2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalesAssistant2.png; sourceTree = "<group>"; };
+		325C31522413FC2200F3DEED /* SalesAssistant1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SalesAssistant1.png; path = ../../../../Downloads/SalesAssistant1.png; sourceTree = "<group>"; };
+		325C31532413FC2300F3DEED /* SalesAssistant4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalesAssistant4.png; sourceTree = "<group>"; };
+		325C31542413FC2300F3DEED /* SalesAssistant3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalesAssistant3.png; sourceTree = "<group>"; };
+		325C31552413FC2300F3DEED /* SalesAssistant5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalesAssistant5.png; sourceTree = "<group>"; };
 		3265FABC2402D5E40059A78C /* ProductClassificationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductClassificationTableViewController.swift; sourceTree = "<group>"; };
 		3265FAC02402F2670059A78C /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		3265FAC52403128B0059A78C /* ProductImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ProductImageClassifier.mlmodel; sourceTree = "<group>"; };
 		32B5CEFC23FB22640066AF24 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		32B5CEFE23FB47A70066AF24 /* CustomerDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetailTableViewController.swift; sourceTree = "<group>"; };
 		3417C34A7795E3A14BD24CE7 /* PurchaseOrderHeaderDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderHeaderDetailViewController.swift; path = ViewControllers/PurchaseOrderHeader/PurchaseOrderHeaderDetailViewController.swift; sourceTree = "<group>"; };
+		351E1F60032CD9DCF1626B59 /* ESPMContainerMetadataText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerMetadataText.swift; path = "Proxy Classes/internal/ESPMContainerMetadataText.swift"; sourceTree = "<group>"; };
 		363ACE110F12AC2F89E0195F /* SupplierDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupplierDetailViewController.swift; path = ViewControllers/Supplier/SupplierDetailViewController.swift; sourceTree = "<group>"; };
 		38931441A69FF314530A2649 /* OnboardingFlowProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingFlowProvider.swift; path = Onboarding/OnboardingFlowProvider.swift; sourceTree = "<group>"; };
 		39FFBF4DB113B6BE52F32360 /* OnboardingErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingErrorHandler.swift; path = Onboarding/OnboardingErrorHandler.swift; sourceTree = "<group>"; };
 		3F18871ACECBB8F6D794242F /* ODataOnboardingStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODataOnboardingStep.swift; path = OData/ODataOnboardingStep.swift; sourceTree = "<group>"; };
 		45BB8121A747ADD36C113C5A /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Stock.storyboard; sourceTree = "<group>"; };
-		48E181432A59E815FBE75039 /* SalesOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderHeader.swift; path = "Proxy Classes/public/SalesOrderHeader.swift"; sourceTree = "<group>"; };
-		516C48F70EFD8481EB63E700 /* Stock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stock.swift; path = "Proxy Classes/public/Stock.swift"; sourceTree = "<group>"; };
-		5D514F01B303836755B63607 /* ProductText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductText.swift; path = "Proxy Classes/public/ProductText.swift"; sourceTree = "<group>"; };
 		5E2E3E2ABEFA8677C2D3F48C /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SalesOrderHeader.storyboard; sourceTree = "<group>"; };
-		5F3A9BF077CF0C56A0E9BFD6 /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = "Proxy Classes/public/Customer.swift"; sourceTree = "<group>"; };
-		68F5C2FAD3CD5D1FF2690307 /* ESPMContainerStaticResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerStaticResolver.swift; path = "Proxy Classes/internal/ESPMContainerStaticResolver.swift"; sourceTree = "<group>"; };
 		696BDC57A84129B57B08254A /* ApplicationUIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationUIManager.swift; path = Onboarding/ApplicationUIManager.swift; sourceTree = "<group>"; };
 		6DD36C1789E74E2B3D3E6C6D /* ConfigurationProvider.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ConfigurationProvider.plist; path = Onboarding/ConfigurationProvider.plist; sourceTree = "<group>"; };
 		71DC531BAEC8B17C7EAC087B /* ProductDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductDetailViewController.swift; path = ViewControllers/Product/ProductDetailViewController.swift; sourceTree = "<group>"; };
 		75060EF516E8782C6644036B /* SupplierMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupplierMasterViewController.swift; path = ViewControllers/Supplier/SupplierMasterViewController.swift; sourceTree = "<group>"; };
+		77D0E3DB526B8BDD91D99B51 /* Supplier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Supplier.swift; path = "Proxy Classes/public/Supplier.swift"; sourceTree = "<group>"; };
+		77FBD74D1D6132F89673D0F8 /* ESPMContainerMetadataChanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerMetadataChanges.swift; path = "Proxy Classes/internal/ESPMContainerMetadataChanges.swift"; sourceTree = "<group>"; };
 		7A1315B51D4B982000A5DA56 /* SalesAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1315B81D4B982000A5DA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A1315C11D4B982000A5DA56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -168,30 +211,32 @@
 		7A5744B321DE553600E58C7F /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5744B521DE553600E58C7F /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		7A5744B721DE553700E58C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6DF84B7A4551D9D20A53F6 /* ESPMContainerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerFactory.swift; path = "Proxy Classes/internal/ESPMContainerFactory.swift"; sourceTree = "<group>"; };
 		7ABA4717219D6EAD005B471C /* SAPOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOData.framework; sourceTree = "<group>"; };
 		7ABA4719219D6EAD005B471C /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPCommon.framework; sourceTree = "<group>"; };
 		7ABA471A219D6EAD005B471C /* SAPFioriFlows.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFioriFlows.framework; sourceTree = "<group>"; };
 		7ABA471B219D6EAD005B471C /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFoundation.framework; sourceTree = "<group>"; };
 		7ABA471C219D6EAD005B471C /* SAPFiori.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFiori.framework; sourceTree = "<group>"; };
+		7B86F5976AE552CAE8B85182 /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = "Proxy Classes/public/Product.swift"; sourceTree = "<group>"; };
+		84BF2C5D26FF45E50A3A1A4A /* ProductText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductText.swift; path = "Proxy Classes/public/ProductText.swift"; sourceTree = "<group>"; };
+		84E206C6D57AD3B36F6C0C94 /* ProductCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductCategory.swift; path = "Proxy Classes/public/ProductCategory.swift"; sourceTree = "<group>"; };
 		866C122D3396A155C88DEB71 /* CellCreationHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellCreationHelper.swift; path = Utils/CellCreationHelper.swift; sourceTree = "<group>"; };
-		87C53C43F63FDD950B8A96F9 /* ESPMContainerMetadataText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerMetadataText.swift; path = "Proxy Classes/internal/ESPMContainerMetadataText.swift"; sourceTree = "<group>"; };
+		8879FFFEC07FFCC738F954DC /* ESPMContainerStaticResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerStaticResolver.swift; path = "Proxy Classes/internal/ESPMContainerStaticResolver.swift"; sourceTree = "<group>"; };
+		89A1539CCEB7A352B86B9D82 /* PurchaseOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderItem.swift; path = "Proxy Classes/public/PurchaseOrderItem.swift"; sourceTree = "<group>"; };
 		8C83A30A7F3BABF9FFE5E9DC /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PurchaseOrderHeader.storyboard; sourceTree = "<group>"; };
 		8E038C30445441C0F0160832 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProductText.storyboard; sourceTree = "<group>"; };
 		8E0599DE624F9FCF2BA3E92F /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SalesOrderItem.storyboard; sourceTree = "<group>"; };
 		927299999B019298ACD6B94E /* StockDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StockDetailViewController.swift; path = ViewControllers/Stock/StockDetailViewController.swift; sourceTree = "<group>"; };
-		9453D1F3952250D8B83CCDBF /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = "Proxy Classes/public/Product.swift"; sourceTree = "<group>"; };
-		978CFC2A8118D707AF53DA81 /* PurchaseOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderItem.swift; path = "Proxy Classes/public/PurchaseOrderItem.swift"; sourceTree = "<group>"; };
-		9E2BFFE1D1717824994BBA65 /* Supplier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Supplier.swift; path = "Proxy Classes/public/Supplier.swift"; sourceTree = "<group>"; };
-		A427EE8025170390DA4541C1 /* SalesOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderItem.swift; path = "Proxy Classes/public/SalesOrderItem.swift"; sourceTree = "<group>"; };
-		AEBEAD7DE1EDED711764C239 /* ESPMContainerMetadataChanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerMetadataChanges.swift; path = "Proxy Classes/internal/ESPMContainerMetadataChanges.swift"; sourceTree = "<group>"; };
+		9CBDF88444DCC999E8932226 /* SalesOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderHeader.swift; path = "Proxy Classes/public/SalesOrderHeader.swift"; sourceTree = "<group>"; };
+		B1BB673E8324555FC322A5D9 /* ESPMContainerMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerMetadata.swift; path = "Proxy Classes/public/ESPMContainerMetadata.swift"; sourceTree = "<group>"; };
 		C1C385451525B5F75A390545 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PurchaseOrderItem.storyboard; sourceTree = "<group>"; };
 		C6AA489395CB1ADAA08AC1D7 /* CollectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionType.swift; path = Model/CollectionType.swift; sourceTree = "<group>"; };
 		C7BB451C80DE666E7EFF3319 /* CustomerMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerMasterViewController.swift; path = ViewControllers/Customer/CustomerMasterViewController.swift; sourceTree = "<group>"; };
+		C987DA10D0B47038FE996148 /* ESPMContainerMetadataParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerMetadataParser.swift; path = "Proxy Classes/internal/ESPMContainerMetadataParser.swift"; sourceTree = "<group>"; };
 		CB909D801E38CA8800218154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC6DF096DF9537B4DA28A6B6 /* ProductCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductCategory.swift; path = "Proxy Classes/public/ProductCategory.swift"; sourceTree = "<group>"; };
+		CFEBD9E7E50197824AD8AAE3 /* Stock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stock.swift; path = "Proxy Classes/public/Stock.swift"; sourceTree = "<group>"; };
 		D28068CDB62D5ABA490EB59C /* PurchaseOrderHeaderMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderHeaderMasterViewController.swift; path = ViewControllers/PurchaseOrderHeader/PurchaseOrderHeaderMasterViewController.swift; sourceTree = "<group>"; };
 		D28B03A1B8DF925D04D39D22 /* SAPFioriLoadingIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPFioriLoadingIndicator.swift; path = Utils/SAPFioriLoadingIndicator.swift; sourceTree = "<group>"; };
-		D47C82E0485FCD10645C3041 /* ESPMContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainer.swift; path = "Proxy Classes/public/ESPMContainer.swift"; sourceTree = "<group>"; };
 		DFDC965A6E5081960E53A171 /* CollectionsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionsViewController.swift; path = ViewControllers/CollectionsViewController.swift; sourceTree = "<group>"; };
 		DFF8A731EDC00518566FECB9 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Customer.storyboard; sourceTree = "<group>"; };
 		E455522EAB0112F3DAABA50D /* StockMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StockMasterViewController.swift; path = ViewControllers/Stock/StockMasterViewController.swift; sourceTree = "<group>"; };
@@ -199,9 +244,8 @@
 		ED288210EEC094172D5D3806 /* ProductTextDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductTextDetailViewController.swift; path = ViewControllers/ProductText/ProductTextDetailViewController.swift; sourceTree = "<group>"; };
 		EE09D7F9CDA2CA0A90B8E99A /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Supplier.storyboard; sourceTree = "<group>"; };
 		EEFA15F51D53393E7F9E707E /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Product.storyboard; sourceTree = "<group>"; };
-		EFEAAB1CADE12800845864FB /* ESPMContainerMetadataParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerMetadataParser.swift; path = "Proxy Classes/internal/ESPMContainerMetadataParser.swift"; sourceTree = "<group>"; };
 		F4C2558C791E3F89BC97281C /* CustomerDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerDetailViewController.swift; path = ViewControllers/Customer/CustomerDetailViewController.swift; sourceTree = "<group>"; };
-		F95590836E51C1691E2F9FF0 /* ESPMContainerMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerMetadata.swift; path = "Proxy Classes/public/ESPMContainerMetadata.swift"; sourceTree = "<group>"; };
+		F83796A789CBA6141888B82D /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = "Proxy Classes/public/Customer.swift"; sourceTree = "<group>"; };
 		FD19BCCC892447F46967E372 /* SalesOrderHeaderDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderHeaderDetailViewController.swift; path = ViewControllers/SalesOrderHeader/SalesOrderHeaderDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -228,18 +272,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07D0E8F8A09DFAD29BC85F9A /* internal */ = {
-			isa = PBXGroup;
-			children = (
-				87C53C43F63FDD950B8A96F9 /* ESPMContainerMetadataText.swift */,
-				EFEAAB1CADE12800845864FB /* ESPMContainerMetadataParser.swift */,
-				68F5C2FAD3CD5D1FF2690307 /* ESPMContainerStaticResolver.swift */,
-				27D42A0D12E04F65A166E0C6 /* ESPMContainerFactory.swift */,
-				AEBEAD7DE1EDED711764C239 /* ESPMContainerMetadataChanges.swift */,
-			);
-			name = internal;
-			sourceTree = "<group>";
-		};
 		13DB80BB16D6DCE83A832ED0 /* SalesOrderItem */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,26 +282,6 @@
 			name = SalesOrderItem;
 			sourceTree = "<group>";
 		};
-		24FD11FA28A0E0F1AEA7D094 /* public */ = {
-			isa = PBXGroup;
-			children = (
-				9453D1F3952250D8B83CCDBF /* Product.swift */,
-				516C48F70EFD8481EB63E700 /* Stock.swift */,
-				0B3DB526E2462133156C043C /* PurchaseOrderHeader.swift */,
-				CC6DF096DF9537B4DA28A6B6 /* ProductCategory.swift */,
-				01ED3C4608EF16F4372A4CC2 /* Address.swift */,
-				978CFC2A8118D707AF53DA81 /* PurchaseOrderItem.swift */,
-				F95590836E51C1691E2F9FF0 /* ESPMContainerMetadata.swift */,
-				9E2BFFE1D1717824994BBA65 /* Supplier.swift */,
-				A427EE8025170390DA4541C1 /* SalesOrderItem.swift */,
-				48E181432A59E815FBE75039 /* SalesOrderHeader.swift */,
-				5F3A9BF077CF0C56A0E9BFD6 /* Customer.swift */,
-				D47C82E0485FCD10645C3041 /* ESPMContainer.swift */,
-				5D514F01B303836755B63607 /* ProductText.swift */,
-			);
-			name = public;
-			sourceTree = "<group>";
-		};
 		289F9F74A45324A6F488742C /* Stock */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +290,18 @@
 				215353ACBFD26303D2F43BFC /* Stock.storyboard */,
 			);
 			name = Stock;
+			sourceTree = "<group>";
+		};
+		325C314E2413FB0900F3DEED /* images */ = {
+			isa = PBXGroup;
+			children = (
+				325C31522413FC2200F3DEED /* SalesAssistant1.png */,
+				325C31512413FC2200F3DEED /* SalesAssistant2.png */,
+				325C31542413FC2300F3DEED /* SalesAssistant3.png */,
+				325C31532413FC2300F3DEED /* SalesAssistant4.png */,
+				325C31552413FC2300F3DEED /* SalesAssistant5.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		3B27630FC9DC8AF7D80ADE8F /* OData */ = {
@@ -318,6 +342,7 @@
 				7A5744B421DE553600E58C7F /* UITests */,
 				7A1315B61D4B982000A5DA56 /* Products */,
 				7A1315CC1D4B990B00A5DA56 /* Frameworks */,
+				325C314E2413FB0900F3DEED /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -485,10 +510,42 @@
 		C9896AF48E1E53A388494D20 /* Proxy Classes */ = {
 			isa = PBXGroup;
 			children = (
-				24FD11FA28A0E0F1AEA7D094 /* public */,
-				07D0E8F8A09DFAD29BC85F9A /* internal */,
+				D5409CE4F5000970D07ACAC8 /* internal */,
+				F16DD159540BF24C4CE9FC34 /* public */,
 			);
 			name = "Proxy Classes";
+			sourceTree = "<group>";
+		};
+		D5409CE4F5000970D07ACAC8 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				8879FFFEC07FFCC738F954DC /* ESPMContainerStaticResolver.swift */,
+				7A6DF84B7A4551D9D20A53F6 /* ESPMContainerFactory.swift */,
+				C987DA10D0B47038FE996148 /* ESPMContainerMetadataParser.swift */,
+				351E1F60032CD9DCF1626B59 /* ESPMContainerMetadataText.swift */,
+				77FBD74D1D6132F89673D0F8 /* ESPMContainerMetadataChanges.swift */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+		F16DD159540BF24C4CE9FC34 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				160854493BF3D2BE47E0141C /* ESPMContainer.swift */,
+				84E206C6D57AD3B36F6C0C94 /* ProductCategory.swift */,
+				9CBDF88444DCC999E8932226 /* SalesOrderHeader.swift */,
+				167178850747ECBEB57AED0E /* Address.swift */,
+				063ECE320CE2DE91263D9775 /* SalesOrderItem.swift */,
+				F83796A789CBA6141888B82D /* Customer.swift */,
+				89A1539CCEB7A352B86B9D82 /* PurchaseOrderItem.swift */,
+				B1BB673E8324555FC322A5D9 /* ESPMContainerMetadata.swift */,
+				CFEBD9E7E50197824AD8AAE3 /* Stock.swift */,
+				2E8E8DCA563529AAD7A992B1 /* PurchaseOrderHeader.swift */,
+				7B86F5976AE552CAE8B85182 /* Product.swift */,
+				84BF2C5D26FF45E50A3A1A4A /* ProductText.swift */,
+				77D0E3DB526B8BDD91D99B51 /* Supplier.swift */,
+			);
+			name = public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -581,12 +638,17 @@
 				7A16F06D1FD1B3C700D2FABD /* README.md in Resources */,
 				7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */,
 				7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */,
+				325C31592413FC2300F3DEED /* SalesAssistant3.png in Resources */,
 				CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */,
 				1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */,
 				F75264D4F86882C7561DC90A /* ProductText.storyboard in Resources */,
 				8025C35A5D8FED1925A4901F /* Product.storyboard in Resources */,
+				325C315A2413FC2300F3DEED /* SalesAssistant5.png in Resources */,
 				DE369974A416DA5C58BC2750 /* PurchaseOrderItem.storyboard in Resources */,
 				3C8C1CA2D8FA412AEE0A30B4 /* SalesOrderItem.storyboard in Resources */,
+				325C31582413FC2300F3DEED /* SalesAssistant4.png in Resources */,
+				325C31562413FC2300F3DEED /* SalesAssistant2.png in Resources */,
+				325C31572413FC2300F3DEED /* SalesAssistant1.png in Resources */,
 				FBBC166F3BDF505151510603 /* SalesOrderHeader.storyboard in Resources */,
 				B448E5A2BA80A57C3FA8BF7A /* Customer.storyboard in Resources */,
 				69AAD83C99393F86244B6921 /* Stock.storyboard in Resources */,
@@ -637,31 +699,18 @@
 				468A909A8DD61C8F28FEFD12 /* ProductTextDetailViewController.swift in Sources */,
 				2ADFFE1168CC8D07C918142A /* AlertHelper.swift in Sources */,
 				F9AECD50E9DDB09CDC6933F6 /* SupplierDetailViewController.swift in Sources */,
-				D5BA604352B041183A9AE27E /* Product.swift in Sources */,
-				46440EB9F412E5BE3F17E71C /* Stock.swift in Sources */,
-				EE42A2B779DCF2560FB5D9BD /* PurchaseOrderHeader.swift in Sources */,
 				3B219AFB2C33CB78C1524F9D /* CustomerMasterViewController.swift in Sources */,
 				E5FFFBB7D3F53C14F941230E /* SalesOrderHeaderDetailViewController.swift in Sources */,
-				55853351A9D562947CB318AC /* ProductCategory.swift in Sources */,
 				E8473668E6233F76FDFFDF37 /* ODataOnboardingStep.swift in Sources */,
-				6BBDD07619CC6F040722EB9D /* ESPMContainerMetadataText.swift in Sources */,
-				A8CB5182C9D6B0C4A36D8130 /* Address.swift in Sources */,
-				7A6F077E2BEB70EAAB3054D4 /* PurchaseOrderItem.swift in Sources */,
 				3265FAC62403128B0059A78C /* ProductImageClassifier.mlmodel in Sources */,
 				1FD40C3C4741707C2FDA40CF /* SalesOrderHeaderMasterViewController.swift in Sources */,
-				C13DE4341F10112EFAEA5B4D /* ESPMContainerMetadataParser.swift in Sources */,
-				413578CFCB2E8072D4CB5D07 /* ESPMContainerMetadata.swift in Sources */,
 				9798D42D18EC1154625CD130 /* StockMasterViewController.swift in Sources */,
 				3C800509138A7326B4E8780C /* ProductCategoryMasterViewController.swift in Sources */,
 				93A9C478E87016CBE8618D68 /* SupplierMasterViewController.swift in Sources */,
-				46CC59771EE7C63B6AC742B1 /* Supplier.swift in Sources */,
-				E1A205A50C78D57ED258CEFC /* SalesOrderItem.swift in Sources */,
-				1FAF6015E95D41039C375142 /* ESPMContainerStaticResolver.swift in Sources */,
 				76A0B0A889AFCA063A7291E1 /* ProductMasterViewController.swift in Sources */,
 				9CB20BE299C330872036CB3A /* PurchaseOrderItemDetailViewController.swift in Sources */,
 				8D2C49BC07BBB4A4C8E61840 /* CustomerDetailViewController.swift in Sources */,
 				32B5CEFF23FB47A70066AF24 /* CustomerDetailTableViewController.swift in Sources */,
-				7BD1F419C1A1FAB9F8322388 /* SalesOrderHeader.swift in Sources */,
 				07C56C4EC152248D319F1C48 /* CollectionsViewController.swift in Sources */,
 				39268A3190542172F41052D9 /* OnlineODataController.swift in Sources */,
 				3265FABD2402D5E40059A78C /* ProductClassificationTableViewController.swift in Sources */,
@@ -669,15 +718,10 @@
 				CEC1946DFC818373800E4108 /* PurchaseOrderHeaderMasterViewController.swift in Sources */,
 				7E0F8189ECC7B089D0C152CB /* CellCreationHelper.swift in Sources */,
 				32B5CEFD23FB22640066AF24 /* OverviewViewController.swift in Sources */,
-				147449EEC32C07D6E9407F7A /* Customer.swift in Sources */,
 				57405BBD0D5CBA9468A980D0 /* SalesOrderItemMasterViewController.swift in Sources */,
 				22A333DF416D030FEFD1038A /* CollectionType.swift in Sources */,
-				3D0605E219765462C98670AB /* ESPMContainerFactory.swift in Sources */,
-				0AF87DA8D371597A1E466E1B /* ESPMContainer.swift in Sources */,
-				9C026955C7EE20C3BE023204 /* ESPMContainerMetadataChanges.swift in Sources */,
 				8655BB5284143E85CB39EBAF /* ProductDetailViewController.swift in Sources */,
 				46C6D5B4E22A0F6B2E9D9EEC /* SalesOrderItemDetailViewController.swift in Sources */,
-				239728F0283BED6A526EB351 /* ProductText.swift in Sources */,
 				7A0F5995CE328ECF4DAAD662 /* PurchaseOrderHeaderDetailViewController.swift in Sources */,
 				7B337E91B6E9F1F4ECC136A6 /* ProductCategoryDetailViewController.swift in Sources */,
 				FFEAFEB2977BE142BE3BBFBE /* StockDetailViewController.swift in Sources */,
@@ -688,6 +732,60 @@
 				50F668FA06071BD94EF3C65B /* ConfigurationProvider.plist in Sources */,
 				6D5945B6DD69BACBE2CD1A73 /* ApplicationUIManager.swift in Sources */,
 				3265FAC12402F2670059A78C /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				5EAEF795115921146AC87319 /* (null) in Sources */,
+				236D57CE17F59574B47E7E84 /* (null) in Sources */,
+				8E85CECB2A5281C4373F2EBF /* (null) in Sources */,
+				052BD7900A7EAE8B19AC17A8 /* (null) in Sources */,
+				7A76F5B5D10F5BC80630EA53 /* (null) in Sources */,
+				A3BD1F87B785B7E3C62008B4 /* (null) in Sources */,
+				66F8F0DF42BE4779CC562AD4 /* (null) in Sources */,
+				FF83DFB4A8865159D59921C6 /* (null) in Sources */,
+				140AFF8D2DEF61D9D5E46D92 /* (null) in Sources */,
+				B809429A404DF9E9FC6CC46D /* (null) in Sources */,
+				A344A876AD8675C975D9E902 /* (null) in Sources */,
+				6DFDCACC0282803887016BAC /* (null) in Sources */,
+				F06146E4E89DAB7E24CE3470 /* (null) in Sources */,
+				20E78F9F2A73DBE728A2A8C8 /* (null) in Sources */,
+				4063011B2FA410807F231B9E /* (null) in Sources */,
+				274FD7743148BAB5A642AA86 /* (null) in Sources */,
+				440D6C8EB4B0D8DDD57E1B25 /* (null) in Sources */,
+				A35E0A1D2972D958BB001109 /* (null) in Sources */,
+				68AD5C07F17DF693A9491E1B /* (null) in Sources */,
+				6DDA36762D9E1429F55BA596 /* (null) in Sources */,
+				678A6218BCABD758FB3A6346 /* (null) in Sources */,
+				57B158E77BE56F5723E00CFC /* (null) in Sources */,
+				8860032E2B262EB2F409AB25 /* (null) in Sources */,
+				D0A3E038DFA9D711B7048D0E /* (null) in Sources */,
+				73F1F2AFF25B6DB9E4BBEA13 /* (null) in Sources */,
+				305A8C6E5FE79CE02FA2E581 /* (null) in Sources */,
+				0DD8585E3B411A7F5CFAFDC7 /* (null) in Sources */,
+				FE4E8EE3FAAEA838D1E1E82E /* (null) in Sources */,
+				E8FE391E34B0E9A2857DC8E7 /* (null) in Sources */,
+				43C839105F8C2ECDEBD563BD /* (null) in Sources */,
+				65D8F556F2ED038F6124088A /* (null) in Sources */,
+				E0DAD7982ECCD97203E74A8C /* (null) in Sources */,
+				6DC97709F77EE85B2FDCBB87 /* (null) in Sources */,
+				FC3B8941C57F2002763FC454 /* (null) in Sources */,
+				32FFB9BB1A3AEC2ACBB7E302 /* (null) in Sources */,
+				7DDFC7FAD585F0829740D608 /* (null) in Sources */,
+				F38B0142CB23DEAE7249608D /* ESPMContainerStaticResolver.swift in Sources */,
+				24264030BC9599EEC85C5F8C /* ESPMContainerFactory.swift in Sources */,
+				1865660A118C5981831DE778 /* ESPMContainerMetadataParser.swift in Sources */,
+				DAECAC0F69B63B5831FB7EE7 /* ESPMContainerMetadataText.swift in Sources */,
+				FBE3F9E32F45CDF151860F3D /* ESPMContainerMetadataChanges.swift in Sources */,
+				6832E1E431BEB03A9CAFA2AC /* ESPMContainer.swift in Sources */,
+				34A5F7E752928F4F9EC30C65 /* ProductCategory.swift in Sources */,
+				BCFF30AEAF59F3379ACA6A71 /* SalesOrderHeader.swift in Sources */,
+				CDE1EAB4DCD488EE4DB1B6CF /* Address.swift in Sources */,
+				36B2893B8D087BF483230151 /* SalesOrderItem.swift in Sources */,
+				E5BA920B01DF1507C8E4B1F0 /* Customer.swift in Sources */,
+				24A517F5857CC8DB5635BF36 /* PurchaseOrderItem.swift in Sources */,
+				43DEB83D01004FBFC0DDDE1C /* ESPMContainerMetadata.swift in Sources */,
+				5CA0AF9D4A6EE337B4518133 /* Stock.swift in Sources */,
+				8EE581B37D834C3F4F3224CD /* PurchaseOrderHeader.swift in Sources */,
+				85EF0951156C2B7EDECD421D /* Product.swift in Sources */,
+				E00F27E9FC90D8413A63874B /* ProductText.swift in Sources */,
+				E7721B1D071F04A807DE2B02 /* Supplier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

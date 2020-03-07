@@ -6,22 +6,21 @@
 //  Copyright © 2020 SAP. All rights reserved.
 //
 
-import UIKit
-import Vision
+import SAPCommon
 import SAPFiori
 import SAPOData
-import SAPCommon
+import UIKit
+import Vision
 
 class ProductClassificationTableViewController: UITableViewController, SAPFioriLoadingIndicator {
-    
     var image: UIImage!
-    
-    @IBAction func doneButtonTapped(_ sender: Any) {
-    self.dismiss(animated: true)
+
+    @IBAction func doneButtonTapped(_: Any) {
+        self.dismiss(animated: true)
     }
-    
+
     var loadingIndicator: FUILoadingIndicatorView?
-    
+
     private var dataService: ESPMContainer<OnlineODataProvider>?
     private let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
@@ -29,9 +28,9 @@ class ProductClassificationTableViewController: UITableViewController, SAPFioriL
 
     private var products = [Product]()
     private var productImageURLs = [String]()
-    
-    private var imageCache = [String:UIImage]()
-    
+
+    private var imageCache = [String: UIImage]()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -47,9 +46,9 @@ class ProductClassificationTableViewController: UITableViewController, SAPFioriL
         }
 
         self.dataService = dataService
-        
+
         updateClassifications(for: image)
-        
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -58,12 +57,10 @@ class ProductClassificationTableViewController: UITableViewController, SAPFioriL
     }
 
     private func loadProductImageFrom(_ url: URL, completionHandler: @escaping (_ image: UIImage) -> Void) {
-
         // Retrieve an instance of the SAPURLSession
         if let sapURLSession = appDelegate.sessionManager.onboardingSession?.sapURLSession {
-
             // Use a data task on the SAPURLSession to load the product images
-            sapURLSession.dataTask(with: url, completionHandler: { (data, response, error) in
+            sapURLSession.dataTask(with: url, completionHandler: { data, _, error in
 
                 if let error = error {
                     self.logger.error("Failed to load image!", error: error)
@@ -78,7 +75,7 @@ class ProductClassificationTableViewController: UITableViewController, SAPFioriL
             }).resume()
         }
     }
-    
+
     lazy var classificationRequest: VNCoreMLRequest = {
         do {
             // Instantiate the Core ML model
@@ -96,10 +93,9 @@ class ProductClassificationTableViewController: UITableViewController, SAPFioriL
             fatalError("Failed to load Vision ML model: \(error)")
         }
     }()
-    
+
     /// - Tag: PerformRequests
     func updateClassifications(for image: UIImage) {
-
         // show the loading indicator
         self.showFioriLoadingIndicator("Finding similar products...")
 
@@ -124,13 +120,11 @@ class ProductClassificationTableViewController: UITableViewController, SAPFioriL
             }
         }
     }
-    
+
     /// - Tag: ProcessClassifications
     func processClassifications(for request: VNRequest, error: Error?) {
-
         // Use the main dispatch queue
         DispatchQueue.main.async {
-
             // Check if the results are nil and display the error in an Alert Dialogue
             guard let results = request.results else {
                 self.logger.error("Unable to classify image.", error: error)
@@ -146,7 +140,7 @@ class ProductClassificationTableViewController: UITableViewController, SAPFioriL
                 // Retrieve top classifications ranked by confidence.
                 let topClassifications = classifications.prefix(2)
                 let categoryNames = topClassifications.map { classification in
-                    return String(classification.identifier)
+                    String(classification.identifier)
                 }
 
                 // Safe unwrap the first classification, because that will be the category with the highest confidence.
@@ -181,32 +175,32 @@ class ProductClassificationTableViewController: UITableViewController, SAPFioriL
             }
         }
     }
-    
+
     // MARK: - Table view data source
+
     // Return one section
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    override func numberOfSections(in _: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     // Th number of rows is dependent on the available products
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return products.count
     }
 
     /* - leaving in default override function
+     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
+         // Configure the cell...
+
+         return cell
+     }
+     */
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
-    }
-    */
-
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-
         // Get the correct product to display
         let product = products[indexPath.row]
 
@@ -255,52 +249,49 @@ class ProductClassificationTableViewController: UITableViewController, SAPFioriL
 
         return cell
     }
-    
-    
-    
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
 
     /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
+     // Override to support conditional editing of the table view.
+     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+         // Return false if you do not want the specified item to be editable.
+         return true
+     }
+     */
 
     /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
+     // Override to support editing the table view.
+     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+         if editingStyle == .delete {
+             // Delete the row from the data source
+             tableView.deleteRows(at: [indexPath], with: .fade)
+         } else if editingStyle == .insert {
+             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+         }
+     }
+     */
 
     /*
-    // MARK: - Navigation
+     // Override to support rearranging the table view.
+     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+     }
+     */
 
+    /*
+     // Override to support conditional rearranging of the table view.
+     override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+         // Return false if you do not want the item to be re-orderable.
+         return true
+     }
+     */
+
+    /*
+     // MARK: - Navigation
+
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         // Get the new view controller using segue.destination.
+         // Pass the selected object to the new view controller.
+     }
+     */
 }
