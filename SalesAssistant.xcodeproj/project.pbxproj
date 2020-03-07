@@ -25,10 +25,10 @@
 		2ADFFE1168CC8D07C918142A /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A79E9F17E691C7B521C6A8 /* AlertHelper.swift */; };
 		305A8C6E5FE79CE02FA2E581 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		325C31562413FC2300F3DEED /* SalesAssistant2.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31512413FC2200F3DEED /* SalesAssistant2.png */; };
-		325C31572413FC2300F3DEED /* SalesAssistant1.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31522413FC2200F3DEED /* SalesAssistant1.png */; };
 		325C31582413FC2300F3DEED /* SalesAssistant4.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31532413FC2300F3DEED /* SalesAssistant4.png */; };
 		325C31592413FC2300F3DEED /* SalesAssistant3.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31542413FC2300F3DEED /* SalesAssistant3.png */; };
 		325C315A2413FC2300F3DEED /* SalesAssistant5.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C31552413FC2300F3DEED /* SalesAssistant5.png */; };
+		325C315C2414035900F3DEED /* SalesAssistant1.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C315B2414035900F3DEED /* SalesAssistant1.png */; };
 		3265FABD2402D5E40059A78C /* ProductClassificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3265FABC2402D5E40059A78C /* ProductClassificationTableViewController.swift */; };
 		3265FAC12402F2670059A78C /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3265FAC02402F2670059A78C /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		3265FAC62403128B0059A78C /* ProductImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3265FAC52403128B0059A78C /* ProductImageClassifier.mlmodel */; };
@@ -178,10 +178,10 @@
 		30F0D790923BCE0A084DD6A0 /* OnlineODataController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnlineODataController.swift; path = OData/OnlineODataController.swift; sourceTree = "<group>"; };
 		31A79E9F17E691C7B521C6A8 /* AlertHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertHelper.swift; path = Utils/AlertHelper.swift; sourceTree = "<group>"; };
 		325C31512413FC2200F3DEED /* SalesAssistant2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalesAssistant2.png; sourceTree = "<group>"; };
-		325C31522413FC2200F3DEED /* SalesAssistant1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SalesAssistant1.png; path = ../../../../Downloads/SalesAssistant1.png; sourceTree = "<group>"; };
 		325C31532413FC2300F3DEED /* SalesAssistant4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalesAssistant4.png; sourceTree = "<group>"; };
 		325C31542413FC2300F3DEED /* SalesAssistant3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalesAssistant3.png; sourceTree = "<group>"; };
 		325C31552413FC2300F3DEED /* SalesAssistant5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalesAssistant5.png; sourceTree = "<group>"; };
+		325C315B2414035900F3DEED /* SalesAssistant1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalesAssistant1.png; sourceTree = "<group>"; };
 		3265FABC2402D5E40059A78C /* ProductClassificationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductClassificationTableViewController.swift; sourceTree = "<group>"; };
 		3265FAC02402F2670059A78C /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		3265FAC52403128B0059A78C /* ProductImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ProductImageClassifier.mlmodel; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 		325C314E2413FB0900F3DEED /* images */ = {
 			isa = PBXGroup;
 			children = (
-				325C31522413FC2200F3DEED /* SalesAssistant1.png */,
+				325C315B2414035900F3DEED /* SalesAssistant1.png */,
 				325C31512413FC2200F3DEED /* SalesAssistant2.png */,
 				325C31542413FC2300F3DEED /* SalesAssistant3.png */,
 				325C31532413FC2300F3DEED /* SalesAssistant4.png */,
@@ -640,6 +640,7 @@
 				7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */,
 				325C31592413FC2300F3DEED /* SalesAssistant3.png in Resources */,
 				CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */,
+				325C315C2414035900F3DEED /* SalesAssistant1.png in Resources */,
 				1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */,
 				F75264D4F86882C7561DC90A /* ProductText.storyboard in Resources */,
 				8025C35A5D8FED1925A4901F /* Product.storyboard in Resources */,
@@ -648,7 +649,6 @@
 				3C8C1CA2D8FA412AEE0A30B4 /* SalesOrderItem.storyboard in Resources */,
 				325C31582413FC2300F3DEED /* SalesAssistant4.png in Resources */,
 				325C31562413FC2300F3DEED /* SalesAssistant2.png in Resources */,
-				325C31572413FC2300F3DEED /* SalesAssistant1.png in Resources */,
 				FBBC166F3BDF505151510603 /* SalesOrderHeader.storyboard in Resources */,
 				B448E5A2BA80A57C3FA8BF7A /* Customer.storyboard in Resources */,
 				69AAD83C99393F86244B6921 /* Stock.storyboard in Resources */,
